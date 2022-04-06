@@ -1,0 +1,5 @@
+Find the mode
+
+Extend the function from day 1, to also print out the modal element(s) of the input list. 
+i.e, to determine which element occurs the most. 
+If there are multiple such elements, then return a list containing them all.
