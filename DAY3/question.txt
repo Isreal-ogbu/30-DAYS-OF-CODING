@@ -1,0 +1,6 @@
+Palindromic numbers
+
+A palindrome is a word that reads the same way forwards and backwards.(E.g Tenet, 101101)
+
+Write a function that prints out all Palindromic numbers less than a given input, 
+and returns the total number —of palindromes— found!
