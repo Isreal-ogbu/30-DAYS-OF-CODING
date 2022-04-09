@@ -1,0 +1,6 @@
+Fibonacci 
+
+ Using recursion, write a function that prints out the first "n" members of the Fibonacci series.
+(The Fibonacci series is a series of integers, starting from 0 and 1, 
+for which each term is the sum of the two preceding term. 
+I.e  [0, 1, 1, 2, 3, 5, 8, 13, 21,...]; OR "fib(n+1) = fib(n)+ fib(n-1)" ).

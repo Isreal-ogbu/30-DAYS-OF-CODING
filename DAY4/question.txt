@@ -1,0 +1,5 @@
+Decimal to Hexadecimal.
+
+Without using the inbuilt hex() function,
+write a function that takes an integer as input, 
+and prints out its conversion to Hexadecimal as output.
