@@ -1,0 +1,17 @@
+Caesar Cipher
+ 
+
+A Caesar cipher is an ancient form of encryption. It involved taking a text(a string) as input,
+ and encoding it by replacing each letter by the one n-steps  next to it in the alphabet. 
+(E.G Shifting "Python" by 5, becomes "Udymts".—Note that this "shift", wraps around, which is why "y" becomes "d".).
+
+Task: 
+
+"Write a function that takes in as parameters, a plaintext( string)to encode, and a _shift value _, and outputs the encoded value of the string.
+
+*Write another similar function that takes in the encoded string, with a shift_value, and decodes it.
+
+
+*Finally, write a third function that takes in a text, a shift value, 
+and a third parameter to indicate whether to encode or decode the given text.
+(I.e f("string", 5, True/false) ) , And print out the encoded(or decoded) text accordingly.
