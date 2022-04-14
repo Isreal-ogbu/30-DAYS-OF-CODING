@@ -24,7 +24,13 @@ def ussd_code(ussd):
         for i, j in enumerate(bank_type):
             print(i, j)
         input('choose bank (0,1,2,3....) : ')
-        input('Enter account number : ')
+        while True:
+            number = (input('enter account number : '))
+            if len(number) == 10:
+                break
+            else:
+                print('Incorrect account no. Try again!!')
+                continue
         amount = input('Enter amount you want to send : ')
 
         while True:
@@ -32,7 +38,8 @@ def ussd_code(ussd):
             if pass_word1 == Password:
                 remain_balance = balance - int(amount)
                 print('')
-                print('$' + amount, ' Sent.....Thank you for banking with us.\nRemaining balance is $', remain_balance)
+                print('$' + amount, ' Sent.....Thank you for banking with us.')
+                print('Remaining balance is $', remain_balance)
                 break
             else:
                 print('incorrect password')
@@ -41,14 +48,22 @@ def ussd_code(ussd):
     # TO BUY AIR-TIME
     elif option == 1:
         amount1 = input('Enter amount you want to recharge : ')
-        input('Enter recipient Phone No : ')
+
+        while True:
+            number = (input('enter phone number : '))
+            if len(number) == 11:
+                break
+            else:
+                print('incorrect phone number')
+                continue
 
         while True:
             pass_word1 = input('Enter password to send airtime : ')
             if pass_word1 == Password:
                 remain_balance = balance - int(amount1)
                 print('')
-                print(amount1, ' Recharge successfully.\nRemaining balance is ', remain_balance)
+                print(amount1, ' Recharge successfully.')
+                print('Remaining balance is $', remain_balance)
                 break
             else:
                 print('incorrect password')
