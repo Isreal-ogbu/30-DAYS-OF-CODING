@@ -1,0 +1,12 @@
+Euclid's algorithm(GCD).
+
+The GCD(Greatest Common divisor) of two numbers is the largest number by which both are divisible. E.G gcd(42, 18) is 6, 
+since 6 is the highest common factor(HCF—same thing as GCD) of 42 and 18.
+
+Write a program that asks the user for two numbers  and computes their GCD using Euclid's algorithm. The process is described below:
+
+*First, compute the remainder of dividing the larger number by the smaller one.
+
+*Next, replace the larger number with the smaller number, and the smaller number with the remainder.
+
+*Repeat this process until the smaller number equals zero. The GCD is the last value of the larger number.
