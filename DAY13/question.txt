@@ -1,0 +1,19 @@
+Day 13: What are the acronyms?
+
+    Write a program that does the following:
+
+*Ask the user to enter(input()) a sentence containing an acronym or more.
+
+*Print out a list containing all acronyms in the sentence.
+
+For example:
+
+*Input: "I need to get this done ASAP."; Output–> ["ASAP"]
+
+*Input: "SMH. The NPF is really a joke!"; Output–> ["SMH", "NPF"]
+
+*Input: "LOOOL. I thought you were at KFC"; Output–> ["LOOOL", "KFC"]
+
+(Note: An "acronym", for our purposes, 
+is defined as any continuous sequence of UPPERCASE LETTERS,
+not srparated by a whitespace or a symbol.)
