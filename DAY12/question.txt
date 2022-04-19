@@ -1,0 +1,7 @@
+Student or Professor.
+
+At a certain school, student email addresses end with @student.college.edu,
+while professor email addresses end with @prof.college.edu.
+Write a program that first asks the user how many email addresses they will be entering,
+and then has the user enter those addresses. After all the email addresses are entered,
+the program should print out a message indicating exactly how many student and professor emails were entered.
