@@ -1,0 +1,13 @@
+A Magic Square is a 3*3 grid, such that: 
+
+It contains ALL the numbers 1 through 9
+
+The sum of each row, each column, and each diagonal all add up to the same number.
+
+In a program, you can simulate a magic square using a two-dimensional list.
+
+ 
+
+*Write a function that accepts a two-dimensional list as input, and determines 
+
+whether the list is a Magic Square or not. Test the function in a program.

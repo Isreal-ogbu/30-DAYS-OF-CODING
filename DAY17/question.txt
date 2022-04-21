@@ -1,0 +1,3 @@
+Pascal's Triangle.
+
+An easy one. Write a function that prints out the first "n" rows of Pascal's triangle—Where "n" is an integer taken as argument of the function.
