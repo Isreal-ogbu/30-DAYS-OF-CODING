@@ -1,0 +1,35 @@
+Countdown Timer. 
+
+   Write a program that:
+
+1) Asks the user to enter a time period in the form of a number with a unit of either seconds, minutes, or hours. (E.G "44s", "32m", "10h".) 
+
+*the last character of the string entered would be used to determine its unit.
+
+2) Counts down from the input value, and prints out the time left on the clock every second.
+
+3) When the time is exhausted, makes a beeping sound non-stop until the user exits the app. 
+
+ 
+
+For example:
+
+T>Enter a time
+
+User> 5s
+
+T>5 seconds left
+
+>4 seconds left
+
+>3 seconds left
+
+>2 seconds left
+
+>1 second left
+
+*continuous indefinite beeping*
+
+ 
+
+(Hint: A "beeping sound" can be achieved using the "bell character", or any library of your choice.)
