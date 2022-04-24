@@ -1,0 +1,7 @@
+Write a function that takes in a date as input, and returns what day of the week it is.
+
+*The input date can be in any convenient format(Whether a "ddmmyy" string, a series of integers, etc)
+
+*Your function must work for both future and past dates.
+
+*Exception handling(or Type checking) is necessary.
