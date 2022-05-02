@@ -1,0 +1,17 @@
+Binary search algorithm.
+
+    "Binary search" is a basic algorithm, used to find the position of a target value within an SORTED LIST.
+
+(More details can be found here: Binary search)
+
+   For today's task, write a function that takes in two parameters: One list of alphabets, and one character to search. E.G f("x", ['m', 'v', 'x', 'u'])
+
+In your function:
+
+1)first check if the input list is sorted, using any method of your preference. ( If it's unsorted, return a warning indicating so, else continue)
+
+2) Using the BINARY SEARCH ALGORITHM, find the position of the input character in the sorted list.
+
+3)return the position of the character  in the search list. 
+
+4) If the character is not found, return false
