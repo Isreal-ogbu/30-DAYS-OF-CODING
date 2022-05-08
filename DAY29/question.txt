@@ -1,0 +1,11 @@
+GPA Calculator.
+
+Write a function that:
+
+1) Takes as parameters, a list of tuples, containing grades and their corresponding units. (E.G: [ ("A", 2), ("A",3), ("B", 2),...etc] )
+
+2) Computes and returns the student GPA, based on the values provides.
+
+ 
+
+*Note: Handle All necessary exceptions and/or edge cases.
